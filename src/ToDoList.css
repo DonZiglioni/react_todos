@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+h1 {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 4px rgba(255, 255, 255, .5),
+        inset -4px -4px 4px rgba(255, 83, 83, 0.25),
+        1px 1px 2px rgba(255, 255, 255, 0.25),
+        -1px -1px 2px rgba(255, 83, 83, 0.5);
+}
